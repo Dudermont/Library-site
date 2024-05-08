@@ -1,0 +1,7 @@
+# created by virtualenv automatically
+venv/
+__pycache__/
+.idea
+library/books/ststic/images/
+library/media/
+library/db.sqlite3

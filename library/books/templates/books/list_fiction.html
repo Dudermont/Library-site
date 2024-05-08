@@ -1,0 +1,7 @@
+{% for fict in ficts %}
+  {% if fict.id == fict_selected %}
+    <li class="selected">{{fict.name}}</li>
+  {% else %}
+    <li><a href="{{ fict.get_absolute_url }}">{{ fict.name }}</a></li>
+  {% endif %}
+{% endfor %}
